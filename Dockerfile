@@ -24,9 +24,4 @@ RUN apt-get update \
         php7.0-curl \
         ansible
 
-#RUN wget https://bootstrap.pypa.io/get-pip.py \
-#    && python get-pip.py \
-#    && pip install ansible \
-#    && rm get-pip.py
-
 USER jenkins
