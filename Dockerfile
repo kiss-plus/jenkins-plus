@@ -13,6 +13,10 @@ RUN wget http://www.dotdeb.org/dotdeb.gpg \
 RUN apt-get update \
     && apt-get install -y \
         openssl \
+        build-essential \
+        libssl-dev \
+        libffi-dev \
+        python-dev \
         php7.0 \
         php7.0-mysql \
         php7.0-mbstring \
